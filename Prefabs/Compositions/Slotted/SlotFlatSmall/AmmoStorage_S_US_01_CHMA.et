@@ -1,0 +1,52 @@
+GenericEntity : "{6E9190BC2713551D}Prefabs/Compositions/Slotted/BuildableComposition_Base.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  RigidBody "{5E96A067A67C5029}" {
+   ResponseIndex "SmallDestructible"
+  }
+ }
+ coords -0.997 0 0
+ {
+  GenericEntity {
+   ID "5D06E957D85806FB"
+   {
+    GenericEntity {
+     ID "5D371ACBFA947460"
+     components {
+      SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+       m_eSupportedArsenalItemTypes 654528
+      }
+      SCR_ResourceComponent "{5D7D07D2F7A252D2}" {
+       m_aContainers {
+        SCR_ResourceContainer "{68DE6CA3E9FDAC15}" {
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D06FC8C411C3F1F"
+   {
+    DecalEntity {
+     ID "56E0B29E01E2AC90"
+     coords 0 0 0
+    }
+   }
+  }
+  GenericEntity : "{A18D9C677F47AC1C}PrefabsEditable/Auto/Props/Military/Arsenal/AmmoBoxes/US/E_AmmoBoxArsenal_Medical_US.et" {
+   ID "6844713EEA967D3C"
+   coords -0.451 0.09 1.28
+   angles 0.436 -0.002 -0.192
+  }
+  GenericEntity : "{C9D7EAA7E34F7AC6}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_US_CHMA.et" {
+   ID "684471252CECD170"
+   coords -0.267 -0.172 -1.86
+  }
+  GenericEntity : "{E9FBD75A064E874A}PrefabsEditable/Auto/Props/Furniture/TableSmall_01/E_TableSmall_01_DarkWood_CHMA.et" {
+   ID "68447124C6D8D170"
+   coords 0.358 0.048 1.168
+  }
+ }
+}

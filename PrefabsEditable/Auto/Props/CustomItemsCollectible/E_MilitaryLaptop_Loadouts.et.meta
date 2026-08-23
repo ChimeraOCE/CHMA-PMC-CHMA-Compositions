@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{CDD2BD7A0000A84E}PrefabsEditable/Auto/Props/CustomItemsCollectible/E_MilitaryLaptop.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E9FBD75A064E874A}PrefabsEditable/Auto/Props/Furniture/TableSmall_01/E_TableSmall_01_DarkWood_CHMA.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

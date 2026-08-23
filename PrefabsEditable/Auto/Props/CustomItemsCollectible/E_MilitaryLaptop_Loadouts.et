@@ -1,0 +1,201 @@
+GenericEntity {
+ ID "673015146B4C592B"
+ components {
+  SignalsManagerComponent "{673015146B4C5954}" {
+   Enabled 0
+  }
+  CHMA_RekitTerminalComponent "{67301B22EEC29D73}" {
+   m_aKitCharacterPrefabs {
+    "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_CHMA.et" "{DCB6C0174438E365}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_MC_CHMA.et" "{22CF3A495C3F5DD1}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_First_Aider_CHMA.et" "{C9E4FEAF5AAC8D8C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic_CHMA.et" "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT_CHMA.et" "{1623EA3AEFACA0E4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG.et" "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL_CHMA.et" "{0F6689B491641155}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sniper.et"
+   }
+   m_iOldBodyDeleteDelayMs 750
+  }
+  InventoryItemComponent "{673015146B4C525F}" {
+   Attributes SCR_ItemAttributeCollection "{673015146B4C5251}" {
+    ItemDisplayName UIInfo "{673015146B4C5256}" {
+     Name "Military Laptop - Handable"
+     Description "Military Laptop - Handable"
+     Icon "{868229350D476172}ArtPrefabs/mil_notebook_BCR.edds"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{673015146B4C524A}" {
+     Weight 3
+     ItemVolume 40
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{673015146B4C5248}" {
+     AnimationAttachments {
+      AnimationAttachmentInfo "{673015146B4C524D}" {
+       AnimGraph "{DC28104B4BA0200F}Assets/Items/Equipment/workspaces/Compass_Adrianov.agr"
+       AnimInstance "{CB4C389CFA5AAF04}Assets/Items/Equipment/workspaces/GM_Items_BiG.asi"
+       BindingName "Gadget"
+      }
+     }
+     HandAdditiveRotation 0 180 0
+     HandAdditiveTranslation 0 0.02 0.02
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{673015146B4C5241}" {
+      CameraDistanceToItem 0.7
+     }
+    }
+    m_Size SLOT_2x2
+    m_eQuickSlotSize SLOT_1x1
+    m_SlotType SLOT_ANY
+    m_bStackable 0
+   }
+  }
+  MeshObject "{673015146B4C5246}" {
+   Object "{1B30DE0AFF6E20D2}Models/BriefingRoom/Milnotebook/Military_laptop.xob"
+  }
+  SCR_ConsumableItemComponent "{673015146B4C527B}" {
+   m_eAnimVariable ADRIANOV
+   m_eUseMask FROM_ACTION
+  }
+  SCR_EditableEntityComponent "{628AEA851AD758EA}" : "{996046FE206C699A}Prefabs/Editor/Components/Default_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Chimera PMC Rekit Terminal"
+    Icon "{C4990C6E3A4C3EEE}ArtPrefabs/Heine_BCR.edds"
+    m_Image "{868229350D476172}ArtPrefabs/mil_notebook_BCR.edds"
+    m_aAuthoredLabels {
+    }
+    m_aAutoLabels {
+     ENTITYTYPE_OBJECT SIZE_M CONTENT_MODDED Placeables_byHeine
+    }
+   }
+  }
+  SCR_PlaceableItemComponent "{673015146B4C527C}" {
+   m_bCanAttachToDynamicObject 1
+   m_eIgnoredPhysicsLayers 4718592
+   m_aIgnoredComponents {
+    "WeaponComponent" "SCR_RotorDamageManagerComponent"
+   }
+   m_eMeasurementMethod FROM_CENTER_OF_MASS
+   m_fMaxPlacementDistance 1.4
+   m_ePlacementType XYZ
+  }
+  SCR_PreviewEntityComponent "{628AEA851AD71E95}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{673015146B4C5276}" {
+     m_iParentID -1
+     m_Mesh "{1B30DE0AFF6E20D2}Models/BriefingRoom/Milnotebook/Military_laptop.xob"
+     m_Flags EDITABLE
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+   }
+  }
+  ActionsManagerComponent "{673015146B4C526A}" {
+   ActionContexts {
+    UserActionContext "{67301B20B299A7D9}" {
+     ContextName "Rekit"
+     Position PointInfo "{67301B27919C4D25}" {
+      Offset 0 0.1676 -0.173
+     }
+     Radius 1
+    }
+   }
+   additionalActions {
+    CHMA_LaptopRekitUserAction "{67301B200FC320DE}" {
+     ParentContextList {
+      "Rekit"
+     }
+     UIInfo UIInfo "{67301B27E06E2A40}" {
+      Name "Rifleman - CHMA"
+     }
+     VisibilityRange 2
+     m_sKitName "Rifleman - CHMA"
+    }
+    CHMA_LaptopRekitUserAction "{67304729C75CAD71}" {
+     ParentContextList {
+      "Rekit"
+     }
+     UIInfo UIInfo "{67304729283E6BBB}" {
+      Name "Rifleman - MC"
+     }
+     VisibilityRange 2
+     "Sort Priority" 1
+     m_iKitIndex 1
+     m_sKitName "Rifleman - MC"
+    }
+    CHMA_LaptopRekitUserAction "{67306476E78F12A3}" {
+     ParentContextList {
+      "Rekit"
+     }
+     UIInfo UIInfo "{67306476D31EAAB4}" {
+      Name "Combat First Aider - CHMA"
+     }
+     VisibilityRange 2
+     "Sort Priority" 2
+     m_iKitIndex 2
+     m_sKitName "Combat First Aider - CHMA"
+    }
+    CHMA_LaptopRekitUserAction "{69FC7AD769012B69}" {
+     ParentContextList {
+      "Rekit"
+     }
+     UIInfo UIInfo "{69FC7AD769012B2F}" {
+      Name "Medic - CHMA"
+     }
+     VisibilityRange 2
+     "Sort Priority" 3
+     m_iKitIndex 3
+     m_sKitName "PJ - CHMA"
+    }
+    CHMA_LaptopRekitUserAction "{6844B8FA0C67CF16}" {
+     ParentContextList {
+      "Rekit"
+     }
+     UIInfo UIInfo "{67306476D31EAAB4}" {
+      Name "LAT - CHMA"
+     }
+     VisibilityRange 2
+     "Sort Priority" 4
+     m_iKitIndex 4
+     m_sKitName "LAT - CHMA"
+    }
+    CHMA_LaptopRekitUserAction "{6844B8FD95674DD6}" {
+     ParentContextList {
+      "Rekit"
+     }
+     UIInfo UIInfo "{6844B8FD95674D25}" {
+      Name "AR - CHMA"
+     }
+     VisibilityRange 2
+     "Sort Priority" 5
+     m_iKitIndex 5
+     m_sKitName "AR - CHMA"
+    }
+    CHMA_LaptopRekitUserAction "{6844B8FDF30769D9}" {
+     ParentContextList {
+      "Rekit"
+     }
+     UIInfo UIInfo "{6844B8FDF3076911}" {
+      Name "SL - CHMA"
+     }
+     VisibilityRange 2
+     "Sort Priority" 6
+     m_iKitIndex 6
+     m_sKitName "SL - CHMA"
+    }
+    CHMA_LaptopRekitUserAction "{6844B8FD57412ED4}" {
+     ParentContextList {
+      "Rekit"
+     }
+     UIInfo UIInfo "{6844B8FD57412E0D}" {
+      Name "Marksman - CHMA"
+     }
+     VisibilityRange 2
+     "Sort Priority" 7
+     m_iKitIndex 7
+     m_sKitName "Marksman - CHMA"
+    }
+   }
+  }
+  RplComponent "{67301B2BFC71054C}" {
+  }
+ }
+ coords 0.002 0.7 0.02
+}

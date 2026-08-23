@@ -1,0 +1,22 @@
+GameProject {
+ ID "CHMACompositions"
+ GUID "672ECDDAD9F75FF9"
+ TITLE "CHMA Compositions"
+ Dependencies {
+  "58D0FB3206B6F859" "671C868B9BD8B426" "61110CC4F1FF9C8A"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

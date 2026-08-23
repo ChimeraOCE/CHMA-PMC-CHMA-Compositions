@@ -1,0 +1,43 @@
+GenericEntity : "{95D4766BBE46F23D}Prefabs/Items/Equipment/Backpacks/Backpack_IIFS_FieldPack.et" {
+ ID "511E9C6ADE70F798"
+ components {
+  CHMA_CratePreloadComponent "{6A0EFA6D3CEBAA7C}" {
+   m_aContents {
+    CHMA_CratePreloadEntry "{6A0EFA6D3FE9DC9E}" {
+     m_sPrefab "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et"
+     m_iCount 10
+    }
+   }
+  }
+  InventoryItemComponent "{6A0EFA6C6268F7E4}" {
+   Attributes SCR_ItemAttributeCollection "{6A0EFA6C677EE0A6}" {
+    ItemDisplayName UIInfo "{6A0EFA6C668E6BE2}" {
+     Name "Ammunition Crate"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6A0EFA6C45B376B2}" {
+     Weight 10
+    }
+    m_Size SLOT_3x3
+    m_SlotType SLOT_BACKPACK
+    m_bStackable 0
+   }
+  }
+  RigidBody "{511E9C6ADE70F7BC}" {
+   Active Active
+  }
+  SlotManagerComponent "{6A116E2F1B000758}" {
+  }
+  InventoryStorageManagerComponent "{6A0EFA6D7C15F6AA}" {
+  }
+  ActionsManagerComponent "{511E9C6ADE70F786}" {
+   additionalActions {
+    CHMA_RepackCrateAction "{6A0EFA727AACE10E}" {
+     UIInfo UIInfo "{6A0EFA727E077B37}" {
+      Name "Repack Crate"
+     }
+     ActionTitle "Repack Crate"
+    }
+   }
+  }
+ }
+}

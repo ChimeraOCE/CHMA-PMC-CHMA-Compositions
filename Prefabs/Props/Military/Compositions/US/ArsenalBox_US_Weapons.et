@@ -1,0 +1,38 @@
+GenericEntity : "{45C675ED3CFBBEC5}Prefabs/Props/Military/Compositions/US/ArsenalBox_US.et" {
+ ID "56F2C6D6F7C6DAFA"
+ components {
+  CHMA_LogiPointComponent "{6A0EFA64681EF148}" {
+  }
+  SCR_ResourceComponent "{5D7D07D2F7A252D2}" {
+   m_aConsumers {
+    SCR_ResourceConsumerServicePoint "{5E5AE189C57A9FD7}" {
+     m_fBuyMultiplier 0
+    }
+   }
+  }
+  ActionsManagerComponent "{56F2C6D1431ADB12}" {
+   additionalActions {
+    CHMA_RequestCrateAction "{6A0EFA6462A4A6FD}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{6A0EFA6466F2EB4C}" {
+      Name "Request Ammo Crate"
+     }
+     ActionTitle "Request Ammo Crate"
+     m_sCratePrefab "{3068397BF27A0548}Prefabs/Items/Equipment/Backpacks/CHMA_Crate_Ammo.et"
+    }
+    CHMA_RequestCrateAction "{6A0EFA65326443F3}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{6A0EFA652D25F2C8}" {
+      Name "Request Medical Crate"
+     }
+     ActionTitle "Request Medical Crate"
+     m_sActionName "Request Medical Crate"
+    }
+   }
+  }
+ }
+}

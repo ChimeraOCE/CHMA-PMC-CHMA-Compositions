@@ -1,0 +1,78 @@
+GenericEntity : "{E712306EC1913041}Prefabs/Props/Military/Arsenal/AmmoBoxes/AmmoBoxArsenal_Ammunition_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  CHMA_CratePreloadComponent "{6A0EFA2047A8EEF9}" {
+   m_aContents {
+    CHMA_CratePreloadEntry "{6A0EFA1CEDAC4688}" {
+     m_sPrefab "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et"
+     m_iCount 30
+    }
+   }
+  }
+  InventoryItemComponent "{6A0EFA6B5D7C6327}" {
+   Attributes SCR_ItemAttributeCollection "{6A0EFA68BACA4A2F}" {
+    ItemDisplayName UIInfo "{6A0EFA68295AFA58}" {
+     Name "Ammunition Crate"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6A0EFA68C4091948}" {
+     Weight 10
+    }
+    m_Size SLOT_3x3
+    m_SlotType SLOT_BACKPACK
+    m_bStackable 0
+   }
+  }
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{9E1DFF036BCE913E}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Ammunition_01.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   Active Active
+   ResponseIndex "TinyDestructible"
+   Static 0
+  }
+  SCR_ArsenalComponent "{589F01C9C8D4A475}" {
+   Enabled 0
+   m_bArsenalEnabled 0
+  }
+  SCR_EditableEntityComponent "{6A0EFA6B37D85936}" {
+   m_EntityType ITEM
+   m_UIInfo SCR_UIInfo "{6A0EFA6B7918D439}" {
+    Name "Ammo Crate"
+    Description "Ammo Crate for Logi"
+   }
+  }
+  SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
+   "faction affiliation" "US"
+  }
+  SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+   Enabled 0
+  }
+  SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+   Enabled 0
+  }
+  SCR_ServicePointComponent "{5C7489C2D2BCCFA0}" {
+   Enabled 0
+  }
+  UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
+   Attributes SCR_ItemAttributeCollection "{58A17A346E386320}" {
+    ItemDisplayName SCR_InventoryUIInfo "{58A17A3474A3430E}" {
+     Name "#AR-EditableEntity_AmmoBoxArsenal_Ammunition_US_Name"
+    }
+   }
+  }
+  SCR_ArsenalInventoryStorageManagerComponent "{58A0B19B1E191CC1}" {
+   m_bNegateItemWeightAndVolume 0
+  }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   additionalActions {
+    CHMA_RepackCrateAction "{6A0EFA21B4D6E2C6}" {
+     UIInfo UIInfo "{6A0EFA649CD1B347}" {
+      Name "Repack Crate"
+     }
+     ActionTitle "Repack Crate"
+    }
+   }
+  }
+ }
+ coords -0.141 0.332 -0.473
+}

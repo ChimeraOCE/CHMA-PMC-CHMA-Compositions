@@ -1,0 +1,121 @@
+GenericEntity : "{89FAE23A65BBB46D}Prefabs/Props/Military/CISS/SupplyDrop/Parts/US/EquipmentBox_US.et" {
+ ID "63032425024EBE27"
+ components {
+  RHS_CISSSupplyCrateEditableEntityComponent "{624EA26EC03AE458}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{624EA26EC03AE447}" {
+    m_aAuthoredLabels {
+     ROLE_ANTITANK TRAIT_MEDICAL TRAIT_EXPLOSIVE
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{612AE13AABBEE866}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6A116E2E435D00BF}" {
+     SlotTemplate InventoryStorageSlot s1 {
+      Prefab "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+     NumSlots 25
+    }
+    MultiSlotConfiguration "{6A116E2E435D00CD}" {
+     SlotTemplate InventoryStorageSlot s2 {
+      Prefab "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd_M1152.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{6A116E2E435D00C3}" {
+     SlotTemplate InventoryStorageSlot s3 {
+      Prefab "{BEE3897D2286992A}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{6A116E2E435D00C2}" {
+     SlotTemplate InventoryStorageSlot s4 {
+      Prefab "{DFFBF5F097FCF797}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Base.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{6A116E2E435D38C6}" {
+     SlotTemplate InventoryStorageSlot s5 {
+      Prefab "{CC7F787C3ECF678F}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4Ball_1Tracer.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{6A116E2E435D38C4}" {
+     SlotTemplate InventoryStorageSlot s6 {
+      Prefab "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{6A116E2E435D8E78}" {
+     SlotTemplate InventoryStorageSlot s7 {
+      Prefab "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{6A116E2E435D8E7F}" {
+     SlotTemplate InventoryStorageSlot s8 {
+      Prefab "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+     }
+     NumSlots 15
+    }
+    MultiSlotConfiguration "{6A116E2E435D8E7E}" {
+     SlotTemplate InventoryStorageSlot s9 {
+      Prefab "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{6A116E2E435DA56F}" {
+     SlotTemplate InventoryStorageSlot s10 {
+      Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{6A116E2E435DA56D}" {
+     SlotTemplate InventoryStorageSlot s11 {
+      Prefab "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+     }
+     NumSlots 15
+    }
+    MultiSlotConfiguration "{6A116E2E435DA552}" {
+     SlotTemplate InventoryStorageSlot s12 {
+      Prefab "{5375FA7CB1F68573}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M406.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{6A116E2E435DA553}" {
+     SlotTemplate InventoryStorageSlot s13 {
+      Prefab "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{6A116E2E435DA547}" {
+     SlotTemplate InventoryStorageSlot s14 {
+      Prefab "{2BA3B074AE0BFF82}Prefabs/Weapons/Ammo/Ammo_Grenade_Marker_M713.et"
+     }
+     NumSlots 3
+    }
+    MultiSlotConfiguration "{6A116E2E435DA544}" {
+     SlotTemplate InventoryStorageSlot s15 {
+      Prefab "{51A3B99DCE59C8E1}Prefabs/Weapons/Ammo/Ammo_Grenade_Star_Cluster_M585.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{6A116E2E435DA545}" {
+     SlotTemplate InventoryStorageSlot s16 {
+      Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+     }
+     NumSlots 3
+    }
+   }
+  }
+  SlotManagerComponent "{6303414612C49EB4}" {
+   Slots {
+    EntitySlotInfo camo {
+     Offset 0 0 0.09
+     Angles 0 -90 0
+     Prefab "{1E925F50829655B0}Prefabs/Props/Military/Camps/CamoNet_PalletAmmo_US.et"
+    }
+   }
+  }
+ }
+}

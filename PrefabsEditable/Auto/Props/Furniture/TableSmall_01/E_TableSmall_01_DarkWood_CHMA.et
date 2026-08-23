@@ -1,0 +1,43 @@
+GenericEntity : "{00C9C0860D1D8A84}Prefabs/Props/Furniture/TableSmall_01/TableSmall_01_DarkWood.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "TinyDestructible"
+  }
+  SCR_EditableEntityComponent "{58AAE805B4A37B24}" : "{996046FE206C699A}Prefabs/Editor/Components/Default_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Chimera PMC Rekit Terminal w Table"
+    m_Image "{95CC6302C081EAEB}UI/Textures/EditorPreviews/Auto/Props/Furniture/TableSmall_01/E_TableSmall_01_DarkWood.edds"
+    m_aAuthoredLabels {
+    }
+    m_aAutoLabels {
+     ENTITYTYPE_OBJECT SIZE_S
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{58AAE805B4A38597}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{684471248746D484}" {
+     m_iParentID -1
+     m_Mesh "{243039883C576CD5}Assets/Props/Furniture/TableSmall_01/TableSmall_01.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+   }
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+ {
+  GenericEntity : "{CDD2BD7A0000A84E}PrefabsEditable/Auto/Props/CustomItemsCollectible/E_MilitaryLaptop_Loadouts.et" {
+   ID "68447124D942E9FF"
+   coords 0.002 0.7 0.02
+  }
+ }
+}

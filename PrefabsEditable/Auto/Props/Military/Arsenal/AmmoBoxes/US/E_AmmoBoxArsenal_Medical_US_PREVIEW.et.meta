@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{818B00D25F032CA1}PrefabsEditable/Auto/Props/Military/Arsenal/AmmoBoxes/US/E_AmmoBoxArsenal_Medical_US_PREWVIEW.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
