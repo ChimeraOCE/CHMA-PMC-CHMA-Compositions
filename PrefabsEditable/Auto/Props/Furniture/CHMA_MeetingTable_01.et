@@ -1,0 +1,118 @@
+GenericEntity : "{757FCCE8E756175C}Prefabs/Props/Furniture/MeetingTable_01.et" {
+ ID "519690E29A65E796"
+ components {
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "LargeDestructible"
+  }
+  SCR_EditableEntityComponent "{58AAE805B759B464}" : "{996046FE206C699A}Prefabs/Editor/Components/Default_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-EditableEntity_MeetingTable_01_Name"
+    m_Image "{971AFB65077919CE}UI/Textures/EditorPreviews/Auto/Props/Furniture/E_MeetingTable_01.edds"
+    m_aAuthoredLabels {
+    }
+    m_aAutoLabels {
+     ENTITYTYPE_OBJECT SIZE_S
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{58AAE805B758CB80}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{6A2A32B426E2CAFA}" {
+     m_iParentID -1
+     m_Mesh "{76F0ACAB4239B3D5}Assets/Props/Furniture/MeetingTable_01/MeetingTable_01.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+   }
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+ coords 0 0 -0.081
+ {
+  $grp GenericEntity : "{7C78667ED8BD7310}Prefabs/Props/PropsHeine/CHMA_WoodenBoard2.et" {
+   {
+    ID "6A2A32B5BB47E6FE"
+    components {
+     MeshObject "{5872F0EB7FA40561}" {
+      Materials {
+       MaterialAssignClass "{6A3E3D4AEE0D2AEE}" {
+        SourceMaterial "Wooden"
+        AssignedMaterial "{460C89BEAAA9D42F}Models/Board/Data/Wooden.emat"
+       }
+      }
+     }
+    }
+    coords 0 0.193 4.811
+    scale 1.5
+   }
+   {
+    ID "6A3E3D4A6C061DB7"
+    components {
+     MeshObject "{5872F0EB7FA40561}" {
+      Materials {
+       MaterialAssignClass "{6A3E3D4A241525E2}" {
+        SourceMaterial "Wooden"
+        AssignedMaterial "{BB969F62C712E285}Assets/Editor/Plane_01/Data/Plane_01_darkgrey.emat"
+       }
+       MaterialAssignClass "{6A3E3D4A24152213}" {
+        SourceMaterial "Material"
+        AssignedMaterial ""
+       }
+       MaterialAssignClass "{6A3E3D4A24152201}" {
+        SourceMaterial "vaneri"
+        AssignedMaterial ""
+       }
+       MaterialAssignClass "{6A3E3D4A24152236}" {
+        SourceMaterial "watchtower"
+        AssignedMaterial ""
+       }
+      }
+     }
+    }
+    coords 0 0.284 4.777
+    scale 1.4
+   }
+  }
+  GenericEntity : "{D4E924FF59231697}Prefabs/BBOC-MissionProps/CHMA_Projetor_Portatil.et" {
+   ID "6A2A32B47106CAA0"
+   coords 0.133 0.906 0
+   {
+    LightEntity {
+     ID "6A2A32B42F3CD2D4"
+     components {
+      StreetLampComponent "{55A0954A909C9109}" {
+       Enabled 0
+      }
+     }
+     coords -0.098 0.087 0.269
+     angles 8.853 -0.285 -0.023
+     Color 0.5882 0.5882 0.5882 1
+     LV 15
+     ProjectionMap "{272672B7C2DF1D57}UI/Textures/MissionLoadingScreens/congo_map.edds"
+     ProjectionMapMip0 -9.89
+     ProjectionMapMipMax -10
+     Radius 6.42
+     NearPlane 0.73
+     SpotAngle 36.36
+     SpotAngleAttenuation 0.85
+     DistanceAttenuation 1.37
+     Dynamic 1
+     VolLightScale 0
+     VolLightIntensity 0
+    }
+   }
+  }
+  GenericEntity : "{FEE1E6971D6A594B}PrefabsEditable/Auto/Props/Naval/E_LifeBuoy_01_stand.et" {
+   ID "6A2A32B4433026B3"
+   coords 0 0 5.039
+   angles 0 180 0
+  }
+ }
+}
